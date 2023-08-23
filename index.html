@@ -3,15 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha Página</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .conteudo {
+            text-align: center;
+        }
+
+        .imagem-redimensionada {
+            max-width: 300px; /* Defina a largura máxima desejada */
+            height: auto;     /* A altura se ajustará automaticamente para manter a proporção */
+        }
+    </style>
 </head>
 <body>
-     olá me chamo jefferson reginaldo
-    <p></p>
-    tenho 23 anos
-    <p></p>
-    sou de blumenau
-    <p></p>
-    quero estudar na elite pois amo programar e amo me desafiar aprender uma lingua nova aprender a mexer com html entre outros.
+    <div class="conteudo">
+        <p>Olá, me chamo Jefferson Reginaldo.</p>
+        <p>Tenho 23 anos.</p>
+        <p>Sou de Blumenau.</p>
+        <p>Quero estudar na Elite, pois amo programar e amo me desafiar a aprender uma nova língua e a mexer com HTML, entre outros.</p>
+        <img class="imagem-redimensionada" src="bairro-residencial-moderno-com-telhado-verde-e-varanda-gerado-por-ia_188544-10276.avif" alt="Imagem Redimensionada">
+    </div>
 </body>
 </html>
