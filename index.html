@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
     <style>
         body {
             display: flex;
+            flex-direction: column; /* Para alinhar os elementos verticalmente */
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -15,10 +17,11 @@
 
         .conteudo {
             text-align: center;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Adiciona espaço entre o conteúdo e a imagem */
+        }
+
+        .imagem {
+            max-width: 90%; /* Garante que a imagem não ultrapasse a largura da tela */
         }
     </style>
 </head>
@@ -29,5 +32,6 @@
         <p>Sou de Blumenau.</p>
         <p>Quero estudar na Elite, pois amo programar e amo me desafiar a aprender uma nova língua e a mexer com HTML, entre outros.</p>
     </div>
+    <img class="imagem" src="c:\Users\Jefferson Reginaldo\Desktop\Nova pasta\bairro-residencial-moderno-com-telhado-verde-e-varanda-gerado-por-ia_188544-10276.avif" alt="Imagem">
 </body>
 </html>
